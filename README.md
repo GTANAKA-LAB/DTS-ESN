@@ -10,3 +10,9 @@ The python codes for the model and demonstrations are provided.
 
   ## Usage
   Some python modules, such as numpy, scipy, matplotlib, networkx, are required to run the codes.
+  
+  ## Author
+  Gouhei Tanaka, Internationa Research Center for Neurointelligence (IRCN), The University of Tokyo
+  
+  ## Citation
+  G. Tanaka, T. Matsumori, H. Yoshida, K. Aihara, "Reservoir computing with diverse timescales for prediction of multiscale dynamics," arXiv:2108.09446 (Under review for journal publication)
