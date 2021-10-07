@@ -3,5 +3,5 @@ The echo state network (ESN) is a special recurrent neural network model propose
 The DTS-ESN ([Tanaka et al., arXiv:2108.09446](https://arxiv.org/abs/2108.09446)) is an extended ESNmodel with diverse timescales for prediction of multiscale dynamics.
 
   # Usage
-  1. The main DTS-ESN engine is provided as "esn_multiscale.py".
-  1. Demonstrations of time series prediction with the Lorenz system is provided as "pred_tc-Lorenz.py".  
+  * The main DTS-ESN engine is provided as "DTS-ESN.py".
+  * Demonstrations of time series prediction with the Lorenz system is provided as "pred_tc-Lorenz.py".  
