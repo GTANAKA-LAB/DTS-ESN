@@ -11,7 +11,7 @@ The python codes for the model and demonstrations are provided.
   ## Usage
   Some python modules, such as numpy, scipy, matplotlib, networkx, are required to run the codes.
   
-  ## Author
+  ## Developer
   Gouhei Tanaka, International Research Center for Neurointelligence (IRCN), The University of Tokyo
   
   ## Citation
