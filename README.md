@@ -9,7 +9,7 @@ The python codes for the model and demonstrations are provided.
   * demo_pred_tcLorenz.ipynb: a demonstration of "pred_tcLorenz.py" with jupyter notebook
 
   ## Usage
-  Some python modules, such as numpy, scipy, matplotlib, networkx, are required to run the codes.
+  Some python modules, such as numpy, scipy, matplotlib, and networkx, are required to run the codes.
   
   ## Developer
   Gouhei Tanaka, International Research Center for Neurointelligence (IRCN), The University of Tokyo
