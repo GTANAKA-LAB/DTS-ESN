@@ -15,4 +15,4 @@ The python codes for the model and demonstrations are provided.
   Gouhei Tanaka, International Research Center for Neurointelligence (IRCN), The University of Tokyo
   
   ## Citation
-  G. Tanaka, T. Matsumori, H. Yoshida, K. Aihara, "Reservoir computing with diverse timescales for prediction of multiscale dynamics," arXiv:2108.09446 (Under review for journal publication)
+  G. Tanaka, T. Matsumori, H. Yoshida, K. Aihara, "Reservoir computing with diverse timescales for prediction of multiscale dynamics," Physical Review Research, vol.4, L032014 (2022)
