@@ -1,6 +1,6 @@
 # DTS-ESN
 The echo state network (ESN) is a special recurrent neural network model proposed by H. Jaeger in 2001, which is a representative model for reservoir computing.
-The diverse-timescale ESN (DTS-ESN) ([Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L032014)) is an extended ESN model with diverse timescales for prediction of multiscale dynamics.
+The diverse-timescale ESN (DTS-ESN) ([Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L032014)) is an extended ESN model with a rich variety of timescales for prediction of multiscale dynamics.
 The python codes for the model and demonstrations are provided.  
 
   ## Files
