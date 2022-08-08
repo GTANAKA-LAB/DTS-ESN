@@ -3,10 +3,9 @@ The echo state network (ESN) is a special recurrent neural network model propose
 The diverse-timescale ESN (DTS-ESN) ([Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.4.L032014)) is an extended ESN model with a rich variety of timescales for prediction of multiscale dynamics.
 The python codes for the model and demonstrations are provided.  
 
-  ## Files
-  * esn_dts.py: the main DTS-ESN engine
-  * pred_tcLorenz.py: the source file for demonstrations of time series prediction with the two-coupled Lorenz system
-  * demo_pred_tcLorenz.ipynb: a demonstration of "pred_tcLorenz.py" with jupyter notebook
+  ## Folders
+  * 1step_ahead_prediction: this folder contains a sample code and a demo code for reproducing Fig. S2(e) of the reference paper.
+  * longterm_prediction: this folder contains a sample code and a demo code for reproducing Fig. 5(b) of the reference paper.
 
   ## Usage
   Some python modules, such as numpy, scipy, matplotlib, and networkx, are required to run the codes.
