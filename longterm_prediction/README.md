@@ -10,9 +10,5 @@ In [Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abs
   * Numpy, Scipy, Matplotlib, Networkx
   
   ## How to use
-  * The code can be run with the following command:
-  ```
-  > python pred_HR_longterm.py
-  ```
-  
-  The prediction result is also seen in the demo file ```demo_HR_longterm.ipynb```.
+  * Run ``` pred_HR_longterm.py ``` in the jupyter notebook.
+  * The prediction result is also seen in the demo file ```demo_HR_longterm.ipynb```.
