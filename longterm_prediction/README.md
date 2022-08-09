@@ -5,3 +5,11 @@ In [Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abs
   * demo_HR_longterm.ipynb: the demo.
   * esn_dts_closedloop.py: the DTS-ESN engine. 
   * pred_HR_longterm.py: the code.
+
+  ## How to use
+  * The code can be run with the following command:
+  ```
+  > python pred_HR_longterm.py
+  ```
+  
+  The prediction result is also seen in the demo file ```demo_HR_longterm.ipynb```.
