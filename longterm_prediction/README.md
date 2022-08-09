@@ -6,6 +6,9 @@ In [Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abs
   * esn_dts_closedloop.py: the DTS-ESN engine. 
   * pred_HR_longterm.py: the code.
 
+  ## Required modules 
+  * Numpy, Scipy, Matplotlib, Networkx
+  
   ## How to use
   * The code can be run with the following command:
   ```
