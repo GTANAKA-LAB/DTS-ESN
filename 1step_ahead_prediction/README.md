@@ -11,4 +11,4 @@ In [Tanaka et al., Phys. Rev. Res. 2022](https://journals.aps.org/prresearch/abs
   
   ## How to use
   * Run the code ```pred_tcLorenz_1step.py``` in the jupyter notebook.
-  * The prediction result can be seen in ```demo_tcLorenz_1sstep.ipynb```.
+  * The prediction result can be seen in ```demo_tcLorenz_1step.ipynb```.
