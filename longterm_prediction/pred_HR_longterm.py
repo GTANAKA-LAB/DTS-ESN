@@ -122,11 +122,11 @@ if __name__ == '__main__':
     base = np.ones(N_x)*10.0
     leaking_rate = [a ** b for (a, b) in zip(base, power)]
     leaking_rate.sort()
-    np.savetxt('leaking_rate.txt', leaking_rate)
+    #np.savetxt('leaking_rate.txt', leaking_rate)
     #print(leaking_rate)
         
     # ESN
-    list_trial = [4]
+    list_trial = [4]  # seed of random number
     for trial in list_trial:
         model = ESN(train_U.shape[1], train_D.shape[1], N_x, 
                     density=density, input_scale=input_scale, rho=rho,
@@ -141,8 +141,7 @@ if __name__ == '__main__':
         
         # evaluation (validtime)
         VT = eval_validtime_1D(test_D[:,2].T, run_Y[:,2].T, thres=0.05, dt=dt)
-        print([trial, VT])
-        
+        print('Valid time = ', VT)        
 
     # data for figures
     T_range = (T0-T_test, T0)
@@ -155,8 +154,8 @@ if __name__ == '__main__':
     # draw
     plt.rcParams['font.size'] = 12
     plt.rcParams['font.family'] = 'Arial'
-    fig, ax = plt.subplots(4, 1, figsize=(5,4), constrained_layout=True)
-    plt.subplots_adjust(hspace=1)
+    fig, ax = plt.subplots(4, 1, figsize=(5,5), constrained_layout=True)
+    plt.subplots_adjust(hspace=1.5)
     
     # alpha histogram
     ax[0].text(-0.2, 1, '(a)', transform=ax[0].transAxes)
